@@ -16,8 +16,8 @@ import geopandas as gpd
 # User-adjustable variables
 # -----------------------------
 id = 2607  # <- CHANGE THIS to your target polygon identifier (int or string)
-GEOJSON = r"C:\Users\aarav\App\backend\model\tl_2023_06_bg_fc.json"
-CSV     = r"C:\Users\aarav\App\backend\model\processed_env_data_20250708_191941.csv"
+GEOJSON = r"./model/tl_2023_06_bg_fc.json"
+CSV     = r"./model/processed_env_data_20250708_191941.csv"
 LON_COL = "lon"
 LAT_COL = "lat"
 SAVE_MATCHING_TO = None   # e.g., "inside_poly.csv" or leave as None to skip saving

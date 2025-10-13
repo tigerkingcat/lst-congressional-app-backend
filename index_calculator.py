@@ -10,7 +10,7 @@ from fastapi import Body
 # =========================
 #  CONFIG: CHANGE THIS PATH
 # =========================
-BASELINE_PATH = Path(r"C:\Users\aarav\App\backend\model\representative_points_with_HVI.csv")
+BASELINE_PATH = Path(r"./model/representative_points_with_HVI.csv")
 # If your file is elsewhere, update the path above.
 
 # -------------------------

@@ -7,7 +7,7 @@ from index_calculator import predictHVI
 import pandas as pd
 
 # --- Load your CSV (adjust path if needed) ---
-df = pd.read_csv(r"C:\Users\aarav\App\backend\model\final_hvi_data.csv")
+df = pd.read_csv(r"./model/final_hvi_data.csv")
 
 # --- Key mapping you already had ---
 KEY_MAP = {

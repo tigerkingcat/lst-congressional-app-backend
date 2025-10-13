@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.preprocessing import MinMaxScaler
 
 
-df = pd.read_csv(r"C:\Users\aarav\App\backend\model\representative_points.csv")
+df = pd.read_csv(r"./model/representative_points.csv")
 print(df)
 df = df.dropna().reset_index(drop=True)
 df = df.drop(columns="Bachelors_Degree_25plus")
@@ -153,7 +153,7 @@ df['HVI_level'] = pd.qcut(
     labels=[0, 1, 2, 3, 4],
     duplicates='drop'
 )
-output_path = r"C:\Users\aarav\App\backend\model\representative_points_with_HVI.csv"
+output_path = r"./model/representative_points_with_HVI.csv"
 df.to_csv(output_path, index=False)
 
 print(f"Exported to {output_path}")
